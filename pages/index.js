@@ -1,9 +1,15 @@
+import styles from '../styles/Home.module.css';
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <div>
-      <h1>Homepage</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi impedit suscipit architecto, odio inventore nostrum non neque dicta. Quam magni accusantium culpa distinctio tempore iure accusamus, dolorem nobis odit.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi impedit suscipit architecto, odio inventore nostrum non neque dicta. Quam magni accusantium culpa distinctio tempore iure accusamus, dolorem nobis odit.</p>
+      <h1 className={styles.title}>Homepage</h1>
+      <p className={styles.text}>Welcome to my site for the book Angels &amp; Demons of the Robert Langdon novel series by Dan Brown.</p>
+      <p className={styles.text}>Presenting the character sketch of the different characters encountered while reading the novel.</p>
+      <Link href='/characters/'>
+        <a className={styles.btn}>See all Characters</a>
+      </Link>
     </div>
   )
 }
