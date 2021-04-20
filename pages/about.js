@@ -1,8 +1,10 @@
 import styles from '../styles/Home.module.css';
+import Header from '../partials/header';
 
 const About = () => {
     return (  
         <div>
+            <Header title="About" />
             <h1 className={styles.title}>About</h1>
             <p className={styles.text}>
                 Dan Brown is one of the modern legends when it comes to English Authors. Known for writing thrillers, most notably the Robert Langdon novels, Angels &amp; Demons is one of his finest works.<br></br><br></br>
