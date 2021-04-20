@@ -1,11 +1,11 @@
 .name{
+    text-shadow: 2px 2px #d30;
 }
 .occ{
     font-family: Calligraffitti;
     color: aqua;
-}
-.loc{
-    color: white
+    margin-bottom: 10px;
+    font-size: 1.2em;
 }
 .desc{
     padding: 2px 16px;
@@ -15,5 +15,4 @@
 }
 .desc:hover{
     border-left: 8px solid #D30;
-
 }
