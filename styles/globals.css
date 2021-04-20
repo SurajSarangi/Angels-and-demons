@@ -7,6 +7,7 @@ body {
   font-family: "Nunito";
   background-image: url('../public/top.jpg');
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-blend-mode: darken;
 }

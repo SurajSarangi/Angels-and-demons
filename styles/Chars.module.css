@@ -1,0 +1,19 @@
+.name{
+}
+.occ{
+    font-family: Calligraffitti;
+    color: aqua;
+}
+.loc{
+    color: white
+}
+.desc{
+    padding: 2px 16px;
+    display: block;
+    margin: 20px;
+    border-left: 8px solid aqua;
+}
+.desc:hover{
+    border-left: 8px solid #D30;
+
+}
