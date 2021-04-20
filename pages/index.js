@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <h1 className={styles.title}>Homepage</h1>
       <p className={styles.text}>Welcome to my site for the book Angels &amp; Demons of the Robert Langdon novel series by Dan Brown.</p>
-      <p className={styles.text}>Presenting the character sketch of the different characters encountered while reading the novel.</p>
+      <p className={styles.text}>Lets take a look at the character sketch of the different characters encountered while reading the novel.</p>
       <Link href='/characters/'>
         <a className={styles.btn}>See all Characters</a>
       </Link>
