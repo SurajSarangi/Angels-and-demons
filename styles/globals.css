@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 
 body {
-  background: #222235;
+  background: #223;
   color: #CCC;
   font-family: "Nunito";
+  background-image: url('../public/top.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
 }
 a {
   color: #CCC;
@@ -23,6 +28,8 @@ nav {
 }
 nav a {
   margin-left: 12px;
+  font-family: "Calligraffitti";
+  font-size: 1.7em;
 }
 nav a:hover{
   color: #D30;
@@ -40,6 +47,10 @@ footer {
   margin-top: 60px;
   color: #CCC;
   border-top: 1px solid #dd0;
+}
+footer{
+  font-family: "Calligraffitti";
+  font-size: 1.3em;;
 }
 .not-found {
   text-align: center;
